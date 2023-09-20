@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.layout{
+    display: grid;
+    grid-template-columns: 250px 250px 250px;
+    grid-template-rows: 250px 250px 250px;
+    row-gap: 50px;
+    column-gap: 50px;
+}
+div{
+    border: 2px solid;
+}
+img{
+    height: 250px;
+    width: 250px;
+    
+}
